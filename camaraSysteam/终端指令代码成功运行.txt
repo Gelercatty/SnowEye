@@ -1,0 +1,5 @@
+python track.py --source 1.mp4 --show-vid --save-vid --yolo_weights yolov5/weights/yolov5s.pt
+这个命令会弹出窗口，显示识别标记的视频（但运行会比较慢）
+
+python track.py --source 1.mp4 --save-vid --yolo_weights yolov5/weights/yolov5s.pt
+（但运行稍快）
